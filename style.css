@@ -1,0 +1,83 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(147, 129, 165);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar{
+    background-color: rgb(113, 60, 163);
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+#rodape{
+    padding: 10px;
+    background-color:rgb(113, 60, 163);
+    text-align: center;
+    color: rgb(194, 194, 193);
+}
+#inicio{
+    margin:50px;
+    text-align: 30px;
+    padding: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    justify-content: space-around;
+    color: rgb(60, 8, 109);
+}
+   
+.introducao{
+    padding: 10px;
+    text-align: center;
+}
+#titulo{
+
+
+    padding: 1px;
+    text-align: left;
+    color: rgb(60, 8, 109);
+    -webkit-text-stroke: 0.7px;
+    background-color: rgb(255, 255, 255);
+   
+
+
+    align-items:left;
+    justify-content: left;
+   
+    margin: 50px;
+}
+
+
+#corpo{
+    padding: 1px;
+    text-align: left;
+    color: rgb(60, 8, 109);
+    -webkit-text-stroke: 0.7px;
+    background-color: rgb(255, 255, 255);
+   
+
+
+    align-items:left;
+    justify-content: left;
+   
+    margin: 20px;
+}
+#caixa {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
