@@ -9,14 +9,35 @@
 <body>
     <header>
 
-
-
-
         <div id="navbar">
             <h1>Revisão da Prova </h1>
         </div>
 
-
-
-
     </header>
+
+    <main>
+       
+        <section id="inicio">
+            <div class="introducao">
+                  <h1>Nessa revisão iremos falar sobre HTML, CSS, JS e GIT</h1>
+            </div>
+            <script>
+
+                const caixa = document.getElementById("inicio");
+               
+                caixa.addEventListener("mouseover", function () {
+                  caixa.style.backgroundColor = "lightgreen";
+                  caixa.innerText = "Ficou curioso?";
+                });
+           
+                caixa.addEventListener("mouseout", function () {
+                  caixa.style.backgroundColor = "lightblue";
+                  caixa.innerText = "Nessa revisão iremos falar sobre HTML, CSS, JS e GIT";
+                });
+           
+                caixa.addEventListener("click", function () {
+                    alert("De uma espiadinha no conteúdo :)");
+                });
+            </script>
+        </section>
+    </main>
